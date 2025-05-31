@@ -34,3 +34,6 @@ where = ["src"]
 [tool.setuptools_scm]
 # Enable setuptools-scm to derive version from Git tags
 write_to = "src/libversion/_version.py"
+
+[tool.setuptools.package-data]
+"*" = ["py.typed"]
