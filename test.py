@@ -1,3 +1,4 @@
-from libversion import get_version
+from libversion import VersionUtil, __version__
 
-print("Current version:", get_version())
+print("Current version via VersionUtil.get_version():", VersionUtil.get_version())
+print("Current version via __version__:", __version__)
